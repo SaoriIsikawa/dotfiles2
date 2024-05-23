@@ -1,0 +1,83 @@
+URxvt*depth: 32
+URxvt*background: [85]#000000
+URxvt*foreground: #FFFFFF
+
+#URxvt*font: xft:Meslo LG M:regular:pixelsize=20:antialias=true
+#URxvt*boldFont: xft:Meslo LG M:bold:pixelsize=20:antialias=true
+#URxvt*italicFont: xft:Meslo LG M:regular:italic:pixelsize=20:antialias=true
+#URxvt*boldItalicFont: xft:Meslo LG M:bold:italic:pixelsize=20:antialias=true
+#URxvt*letterSpace: -1
+
+URxvt*font: xft:SF Mono:medium:pixelsize=16:antialias=true
+URxvt*boldFont: xft:SF Mono:bold:pixelsize=16:antialias=true
+URxvt*italicFont: xft:SF Mono:medium:italic:pixelsize=16:antialias=true
+URxvt*boldItalicFont: xft:SF Mono:bold:italic:pixelsize=16:antialias=true
+URxvt*letterSpace: -1
+
+!URxvt*font: xft:Hack:regular:pixelsize=22:antialias=true
+!URxvt*boldFont: xft:Hack:bold:pixelsize=22:antialias=true
+!URxvt*italicFont: xft:Hack:regular:italic:pixelsize=22:antialias=true
+!URxvt*boldItalicFont: xft:Hack:bold:italic:pixelsize=22:antialias=true
+!URxvt*letterSpace: -1
+
+#URxvt*font: xft:JetBrains Mono NL:medium:pixelsize=20:antialias=true
+#URxvt*boldFont: xft:JetBrains Mono NL:bold:pixelsize=20:antialias=true
+#URxvt*italicFont: xft:JetBrains Mono NL:medium:italic:pixelsize=20:antialias=true
+#URxvt*boldItalicFont: xft:JetBrains Mono NL:bold:italic:pixelsize=20:antialias=true
+#URxvt*letterSpace: -1
+
+#URxvt*font: xft:Consolas:regular:pixelsize=22:antialias=true
+#URxvt*boldFont: xft:Consolas:bold:pixelsize=22:antialias=true
+#URxvt*italicFont: xft:Consolas:regular:italic:pixelsize=22:antialias=true
+#URxvt*boldItalicFont: xft:Consolas:bold:italic:pixelsize=22:antialias=true
+#URxvt*letterSpace: -1
+
+
+! scrollbar style - rxvt (default), 
+! plain (compact), NeXT, or xtermn
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: True
+
+
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+
+#URxvt.letterSpace: -1
+
+! Disable printing the terminal contents when pressing PrintScreen.
+URxvt.print-pipe: "cat > /dev/null"
+
+
+#URxvt.perl-ext-common: default,matcher,selection-to-clipboard,tabbed
+URxvt.perl-ext-common: default,selection-to-clipboard
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.keysym.C-Delete: perl:matcher:last
+URxvt.keysym.M-Delete: perl:matcher:list
+URxvt.matcher.rend.0: Uline Bold fg5
+URxvt.colorUL: #4682B4
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-bg: 0
+
+
+
+!URxvt*termName: rxvt
