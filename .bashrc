@@ -304,6 +304,8 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias ln='ln -i'
 alias free='free -h'
+alias poweroff='sudo systemctl poweroff'
+alias reboot='sudo systemctl reboot'
 
 
 umask 002
