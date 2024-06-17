@@ -1,5 +1,5 @@
 URxvt*depth: 32
-URxvt*background: [85]#000000
+URxvt*background: [70]#000000
 URxvt*foreground: #FFFFFF
 
 #URxvt*font: xft:Meslo LG M:regular:pixelsize=20:antialias=true
@@ -51,7 +51,7 @@ URxvt.print-pipe: "cat > /dev/null"
 
 
 #URxvt.perl-ext-common: default,selection-to-clipboard,tabbed
-URxvt.perl-ext-common: default,selection-to-clipboard
+URxvt.perl-ext-common: default,selection-to-clipboard,tabbed
 
 URxvt.clipboard.autocopy: true
 URxvt.keysym.M-c: perl:clipboard:copy
@@ -63,7 +63,7 @@ URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 3
 URxvt.tabbed.tab-bg: 0
-
+URxvt.tabbed.tabbar-bg: -1
 
 
 !URxvt*termName: rxvt
