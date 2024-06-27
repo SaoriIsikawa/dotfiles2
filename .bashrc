@@ -136,8 +136,6 @@ shopt -s histappend
 
 export PS1='\[\e[38;5;66m\]\u\[\e[0m\]@\[\e[38;5;96m\]\h \[\e[38;5;65m\]\w \[\e[0m\](\[\e[38;5;178m\]$?\[\e[0m\]) \$ '
 
-export CC=clang
-export CXX=clang++
 
 
 #环境变量
