@@ -165,8 +165,8 @@ set_path ~/bin ~/.local/bin
 export IGNOREEOF=100
 
 # gnupg
-GPG_TTY=$(tty)
-export GPG_TTY
+export GPG_TTY=$(tty)
+gpg-connect-agent updatestartuptty /bye >/dev/null
 
 PAGER=/usr/bin/less
 LESS='-R --use-color -Dd+r$Du+b'
