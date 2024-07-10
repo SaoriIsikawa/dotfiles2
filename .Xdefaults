@@ -1,5 +1,5 @@
 URxvt*depth: 32
-URxvt*background: [70]#000000
+URxvt*background: [90]#000000
 URxvt*foreground: #FFFFFF
 
 #URxvt*font: xft:Meslo LG M:regular:pixelsize=20:antialias=true

@@ -212,6 +212,8 @@ function path(){
 }
 
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib"
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
 
 # ls
 alias l='ls -CF'
