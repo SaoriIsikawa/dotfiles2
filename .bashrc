@@ -168,22 +168,22 @@ export IGNOREEOF=100
 export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
 
-PAGER=/usr/bin/less
-LESS='-R --use-color -Dd+r$Du+b'
-VISUAL=/usr/bin/scite
-SUDO_EDITOR=/usr/bin/vim
-LANG=en_US.UTF-8
-TZ='Asia/Shanghai'
+export PAGER="/usr/bin/less"
+export LESS='-R --use-color -Dd+r$Du+b'
+export VISUAL="/usr/bin/scite"
+export SUDO_EDITOR="/usr/bin/vim"
+export LANG=en_US.UTF-8
+export TZ='Asia/Shanghai'
 if [ -n "$DISPLAY" ]; then
-    EDITOR="/usr/bin/scite"
+    export EDITOR="/usr/bin/scite"
 else
-    EDITOR="/usr/bin/vim"
+    export EDITOR="/usr/bin/vim"
 fi
 
 if [ -n "$DISPLAY" ]; then
-    BROWSER=firefox
+    export BROWSER="/usr/bin/google-chrome"
 else
-    BROWSER=w3m
+    export BROWSER="/usr/bin/w3m"
 fi
 
 
