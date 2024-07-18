@@ -298,7 +298,6 @@ alias ducks='du -cks * | sort -rn | head'
 alias lsserial='python3 ~/bin/lsserial.py'
 alias vim='/usr/bin/vim'
 alias vi='/usr/bin/vim'
-#alias echo='/home/saori/bin/awk -f /home/saori/bin/echo.awk'
 #alias sudo='sudo '
 alias rm='rm -i'
 alias mv='mv -i'
@@ -313,7 +312,6 @@ umask 002
 
 # direnv钩子
 eval "$(direnv hook bash)"
-
 
 
 # vim: set et sw=4 sts=4 tw=80 ft=sh:
