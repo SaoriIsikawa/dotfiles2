@@ -170,7 +170,7 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 
 export PAGER="/usr/bin/less"
 export LESS='-R --use-color -Dd+r$Du+b'
-export VISUAL="/usr/bin/scite"
+export VISUAL="/usr/bin/vim"
 export SUDO_EDITOR="/usr/bin/vim"
 export LANG=en_US.UTF-8
 export TZ='Asia/Shanghai'
