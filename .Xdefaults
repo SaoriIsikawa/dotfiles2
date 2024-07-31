@@ -7,15 +7,15 @@ URxvt*foreground: #FFFFFF
 #URxvt*italicFont: xft:Meslo LG M:regular:italic:pixelsize=20:antialias=true
 #URxvt*boldItalicFont: xft:Meslo LG M:bold:italic:pixelsize=20:antialias=true
 
-#URxvt*font: xft:SF Mono:medium:pixelsize=18:antialias=true
-#URxvt*boldFont: xft:SF Mono:bold:pixelsize=18:antialias=true
-#URxvt*italicFont: xft:SF Mono:medium:italic:pixelsize=18:antialias=true
-#URxvt*boldItalicFont: xft:SF Mono:bold:italic:pixelsize=18:antialias=true
+URxvt*font: xft:SF Mono:medium:pixelsize=18:antialias=true
+URxvt*boldFont: xft:SF Mono:bold:pixelsize=18:antialias=true
+URxvt*italicFont: xft:SF Mono:medium:italic:pixelsize=18:antialias=true
+URxvt*boldItalicFont: xft:SF Mono:bold:italic:pixelsize=18:antialias=true
 
-URxvt*font: xft:Ubuntu Sans Mono:medium:pixelsize=18:antialias=true
-URxvt*boldFont: xft:Ubuntu Sans Mono:bold:pixelsize=18:antialias=true
-URxvt*italicFont: xft:Ubuntu Sans Mono:medium:italic:pixelsize=18:antialias=true
-URxvt*boldItalicFont: xft:Ubuntu Sans Mono:bold:italic:pixelsize=18:antialias=true
+#URxvt*font: xft:Ubuntu Sans Mono:medium:pixelsize=18:antialias=true
+#URxvt*boldFont: xft:Ubuntu Sans Mono:bold:pixelsize=18:antialias=true
+#URxvt*italicFont: xft:Ubuntu Sans Mono:medium:italic:pixelsize=18:antialias=true
+#URxvt*boldItalicFont: xft:Ubuntu Sans Mono:bold:italic:pixelsize=18:antialias=true
 
 #URxvt*font: xft:Ubuntu Mono:regular:pixelsize=18:antialias=true
 #URxvt*boldFont: xft:Ubuntu Mono:bold:pixelsize=18:antialias=true
@@ -27,8 +27,8 @@ URxvt*boldItalicFont: xft:Ubuntu Sans Mono:bold:italic:pixelsize=18:antialias=tr
 #URxvt*italicFont: xft:Cascadia Mono:medium:italic:pixelsize=18:antialias=true
 #URxvt*boldItalicFont: xft:Cascadia Mono:bold:italic:pixelsize=18:antialias=true
 
-#URxvt*letterSpace: -1
-URxvt*lineSpace:    1.618
+URxvt*letterSpace: -1
+URxvt*lineSpace:    1.9
 
 !URxvt*font: xft:Hack:regular:pixelsize=22:antialias=true
 !URxvt*boldFont: xft:Hack:bold:pixelsize=22:antialias=true
