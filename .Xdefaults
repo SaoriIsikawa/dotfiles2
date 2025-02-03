@@ -28,7 +28,7 @@ URxvt*boldItalicFont: xft:Hack:bold:italic:pixelsize=18:antialias=true
 #URxvt*boldItalicFont: xft:Cascadia Mono:bold:italic:pixelsize=18:antialias=true
 
 URxvt*letterSpace: -1
-URxvt*lineSpace:    2.0
+URxvt*lineSpace:    2.618
 
 !URxvt*font: xft:Hack:regular:pixelsize=22:antialias=true
 !URxvt*boldFont: xft:Hack:bold:pixelsize=22:antialias=true
