@@ -296,8 +296,6 @@ alias ip='ip --color=auto'
 alias fdisk='fdisk --color'
 alias ducks='du -cks * | sort -rn | head'
 alias lsserial='python3 ~/bin/lsserial.py'
-alias vim='/usr/bin/vim'
-alias vi='/usr/bin/vim'
 #alias sudo='sudo '
 alias rm='rm -i'
 alias mv='mv -i'
@@ -306,6 +304,7 @@ alias free='free -h'
 alias poweroff='sudo systemctl poweroff'
 alias reboot='sudo systemctl reboot'
 
+#export LIBGL_ALWAYS_SOFTWARE=1
 
 umask 002
 
