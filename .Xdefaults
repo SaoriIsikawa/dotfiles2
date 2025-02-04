@@ -1,7 +1,8 @@
 URxvt*depth: 32
 #URxvt*background: [90]#000000
 URxvt*background: [90]#3A1C00
-URxvt*foreground: #FFFFFF
+#URxvt*foreground: #FFFFFF
+URxvt*foreground: #FFFFE0
 
 URxvt*font: xft:Hack:regular:pixelsize=20:antialias=true
 URxvt*boldFont: xft:Hack:bold:pixelsize=20:antialias=true
