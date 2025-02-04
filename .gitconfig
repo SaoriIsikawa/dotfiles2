@@ -1,0 +1,18 @@
+[user]
+	name = Saori Isikawa
+	email = saori.isikawa414@gmail.com
+	signingkey = D3FE9B64982F8F42
+[tar "tar.xz"]
+	command = xz -c
+[tar "tar.zst"]
+	command = zstd -c
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[merge]
+	ff = false
+[pull]
+	ff = only
+[core]
+	quotepath = false
