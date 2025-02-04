@@ -1,6 +1,6 @@
 URxvt*depth: 32
-#URxvt*background: [90]#000000
-URxvt*background: [90]#2E1A08
+URxvt*background: [90]#000000
+#URxvt*background: [90]#2E1A08
 #URxvt*foreground: #FFFFFF
 URxvt*foreground: #FFFFE0
 

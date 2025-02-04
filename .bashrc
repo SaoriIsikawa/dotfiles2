@@ -125,13 +125,13 @@ complete -cf sudo
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
-export HISTSIZE=10000
-export HISTFILESIZE=20000
-export HISTTIMEFORMAT="%F %T "
-#export HISTCONTROL=ignoreboth
-export HISTCONTROL=ignoredups:erasedups
-#export PROMPT_COMMAND="history -a; history -c; history -r"
-export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTTIMEFORMAT="%F %T "
+#HISTCONTROL=ignoreboth
+HISTCONTROL=ignoredups:erasedups
+PROMPT_COMMAND="history -a; history -c; history -r"
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 shopt -s histappend
 
 export PS1='\[\e[38;5;66m\]\u\[\e[0m\]@\[\e[38;5;96m\]\h \[\e[38;5;65m\]\w \[\e[0m\](\[\e[38;5;178m\]$?\[\e[0m\]) \$ '
@@ -162,18 +162,18 @@ set_path(){
 set_path ~/bin ~/.local/bin
 
 # Shell exits even if ignoreeof set
-export IGNOREEOF=100
+IGNOREEOF=100
 
 # gnupg
 export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
 
 export PAGER="/usr/bin/less"
-export LESS='-R --use-color -Dd+r$Du+b'
-export VISUAL="/usr/bin/vim"
-export SUDO_EDITOR="/usr/bin/vim"
+LESS='-R --use-color -Dd+r$Du+b'
+VISUAL="/usr/bin/vim"
+SUDO_EDITOR="/usr/bin/vim"
 export LANG=en_US.UTF-8
-export TZ='Asia/Shanghai'
+TZ='Asia/Shanghai'
 if [ -n "$DISPLAY" ]; then
     export EDITOR="/usr/bin/scite"
 else
