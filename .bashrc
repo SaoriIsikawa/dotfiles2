@@ -162,7 +162,7 @@ set_path(){
 set_path ~/bin ~/.local/bin
 
 # Shell exits even if ignoreeof set
-IGNOREEOF=100
+export IGNOREEOF=100
 
 # gnupg
 export GPG_TTY=$(tty)
