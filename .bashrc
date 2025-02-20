@@ -216,8 +216,8 @@ export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 
 # zstd
-#export ZSTD_CLEVEL=10
-#export ZSTD_NBTHREADS=0
+export ZSTD_CLEVEL=10
+export ZSTD_NBTHREADS=0
 
 #export LIBGL_ALWAYS_SOFTWARE=1
 
