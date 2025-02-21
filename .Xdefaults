@@ -68,13 +68,17 @@ URxvt.print-pipe: "cat > /dev/null"
 
 #URxvt.perl-ext-common: default,selection-to-clipboard,tabbed
 #URxvt.perl-ext-common: default,selection-to-clipboard,tabbed
-URxvt.perl-ext-common: default,selection-to-clipboard
+URxvt.perl-ext-common: default,selection-to-clipboard,matcher
+
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold fg4
+
 
 URxvt.clipboard.autocopy: true
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 
-#URxvt.matcher.rend.0: Uline Bold fg5
 
 URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 0
