@@ -9,10 +9,15 @@ URxvt*foreground: #FFFFE0
 #URxvt*italicFont: xft:Hack:regular:italic:pixelsize=20:antialias=true
 #URxvt*boldItalicFont: xft:Hack:bold:italic:pixelsize=20:antialias=true
 
-URxvt*font: xft:SF Mono:medium:pixelsize=19:antialias=true
-URxvt*boldFont: xft:SF Mono:bold:pixelsize=19:antialias=true
-URxvt*italicFont: xft:SF Mono:medium:italic:pixelsize=19:antialias=true
-URxvt*boldItalicFont: xft:SF Mono:bold:italic:pixelsize=19:antialias=true
+#URxvt*font: xft:SF Mono:medium:pixelsize=19:antialias=true
+#URxvt*boldFont: xft:SF Mono:bold:pixelsize=19:antialias=true
+#URxvt*italicFont: xft:SF Mono:medium:italic:pixelsize=19:antialias=true
+#URxvt*boldItalicFont: xft:SF Mono:bold:italic:pixelsize=19:antialias=true
+
+URxvt*font: xft:Consolas:regular:pixelsize=19:antialias=true
+URxvt*boldFont: xft:Consolas:bold:pixelsize=19:antialias=true
+URxvt*italicFont: xft:Consolas:regular:italic:pixelsize=19:antialias=true
+URxvt*boldItalicFont: xft:Consolas:bold:italic:pixelsize=19:antialias=true
 
 #URxvt*font: xft:Ubuntu Sans Mono:medium:pixelsize=18:antialias=true
 #URxvt*boldFont: xft:Ubuntu Sans Mono:bold:pixelsize=18:antialias=true
