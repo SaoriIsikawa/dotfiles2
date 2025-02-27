@@ -159,7 +159,7 @@ set_path(){
     done
 }
 
-set_path ~/bin ~/.local/bin
+set_path ~/bin ~/.local/bin ~/Android/Sdk/platform-tools
 
 # Shell exits even if ignoreeof set
 export IGNOREEOF=100
@@ -172,14 +172,13 @@ export PAGER="/usr/bin/less"
 LESS='-R --use-color -Dd+r$Du+b'
 VISUAL="/usr/bin/vim"
 SUDO_EDITOR="/usr/bin/vim"
-export LANG=en_US.UTF-8
+#export LANG=en_US.UTF-8
 TZ='Asia/Shanghai'
 if [ -n "$DISPLAY" ]; then
     export EDITOR="/usr/bin/scite"
 else
     export EDITOR="/usr/bin/vim"
 fi
-
 if [ -n "$DISPLAY" ]; then
     export BROWSER="/usr/bin/google-chrome"
 else
@@ -316,6 +315,5 @@ umask 002
 
 # direnv钩子
 eval "$(direnv hook bash)"
-
 
 # vim: set et sw=4 sts=4 tw=80 ft=sh:
