@@ -6,13 +6,28 @@
 	command = xz -c
 [tar "tar.zst"]
 	command = zstd -c
-[init]
-	defaultBranch = main
 [commit]
 	gpgsign = true
+[core]
+	autocrlf = false
+	compression = 0
+	ignorecase = false
+	quotepath = false
+	safecrlf = true
+[init]
+	defaultBranch = main
 [merge]
 	ff = false
 [pull]
 	ff = only
-[core]
-	quotepath = false
+[push]
+	autoSetupRemote = true
+	default = simple
+[http]
+	postBuffer = 524288000
+	maxRequests = 2
+	retry = 3
+	lowSpeedLimit = 0
+	lowSpeedTime = 999999
+[credential]
+	helper = wincred
